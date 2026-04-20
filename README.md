@@ -1,0 +1,1 @@
+# tiny-ImageNet-CIFAR-10-CNN-VIT-GNN-Comparision
