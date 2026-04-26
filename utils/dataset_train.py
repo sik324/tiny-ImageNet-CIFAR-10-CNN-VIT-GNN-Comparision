@@ -9,7 +9,7 @@ def get_cifar10_train_loader(data_path, batch_size=64):
     """
     Loads CIFAR-10 training images.
     Applies augmentation + normalization.
-    
+
     Args:
         data_path  : path to cifar10/train folder
         batch_size : images per batch (default 64)
@@ -51,7 +51,7 @@ def get_tinyimagenet_train_loader(data_path, batch_size=64):
     Loads Tiny ImageNet training images.
     Applies augmentation + normalization.
     Note: Tiny ImageNet has extra images/ subfolder inside each class.
-    
+
     Args:
         data_path  : path to tiny-imagenet-10/train folder
         batch_size : images per batch (default 64)
